@@ -4,6 +4,7 @@
 #include "mouse_events.h";
 #include "cat_face.h";
 #include "find_contours.h";
+#include "hough_circles.h";
 
 using namespace std;
 using namespace cv;
@@ -16,7 +17,9 @@ int main() {
 	//mouse_events();
 
 	//cat_face();
-	find_contours();
+	//find_contours();
+
+	hough_circles();
 
 	return 0;
 }
