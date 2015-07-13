@@ -3,6 +3,7 @@
 #include "mix_images.h";
 #include "mouse_events.h";
 #include "cat_face.h";
+#include "find_contours.h";
 
 using namespace std;
 using namespace cv;
@@ -14,7 +15,8 @@ int main() {
 
 	//mouse_events();
 
-	cat_face();
+	//cat_face();
+	find_contours();
 
 	return 0;
 }
